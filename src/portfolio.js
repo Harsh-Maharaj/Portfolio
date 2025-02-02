@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Harshhy",
+  username: "Harsh",
   title: "Hi Everyone, I'm Harsh",
   subTitle: emoji(
     "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java / Python / React Native and some other cool libraries and frameworks."
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Here's a list of skills and the Tech Stack I use on a daily basis",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -113,8 +113,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +126,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Auckland University Of Technology",
+      logo: require("./assets/images/AUTLogo.jpg"),
+      subHeader: "Bachelor of Computer and Information Sciences Double Major: Software Development & Business Information Systems",
+      duration: "January 2023 - November 2025",
+      desc: "Activities and Papers Undertaken",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Rutherford College",
+      logo: require("./assets/images/rutherford.jpg"),
+      subHeader: "Highschool Diplomas",
+      duration: "January 2018 - November 2022",
+      desc: "NCEA LEVEL 1, 2 & 3",
+      descBullets: [
+        "NCEA LEVEL 3 Endorsed With With Acheived",
+        "NCEA LEVEL 2 Endorsed With Excellence",
+        "NCEA LEVEL 1 Endorsed With Excellence"
+      ]
     }
   ]
 };
